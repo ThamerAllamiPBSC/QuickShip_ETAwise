@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Large machine learning models
+model/*.joblib
+models/*.joblib
+
+# Temporary files
+*.log
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
